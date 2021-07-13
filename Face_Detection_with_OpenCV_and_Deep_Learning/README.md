@@ -32,3 +32,5 @@ Before Execution:
 ![Screenshot](singleface.jpg)
 
 After Execution:
+
+![Screenshot](singlefacedetect.png)
