@@ -23,7 +23,13 @@ OpenCV’s deep learning face detector is based on the **Single Shot Detector (S
     5) `swapRB` : OpenCV assumes images are in BGR channel order; however, the mean value assumes we are using RGB order. To resolve this discrepancy we can swap the R and B channels in image by setting this value to `True`. By default OpenCV performs this channel swapping for us.
     
 # Execution Command
-python detect_faces.py --image singleface.jpg --prototxt deploy.prototxt.txt --model res10_300x300_ssd_iter_140000.caffemodel
+* detect_faces.py : Used to detect faces in images
+
+  Command: python detect_faces.py --image singleface.jpg --prototxt deploy.prototxt.txt --model res10_300x300_ssd_iter_140000.caffemodel
+  
+* detect_faces_video.py: Used to detect faces in video
+
+  Command: python detect_faces_video.py --prototxt deploy.prototxt.txt --model res10_300x300_ssd_iter_140000.caffemodel
 
 # Output
 
