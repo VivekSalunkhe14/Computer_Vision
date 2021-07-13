@@ -5,17 +5,17 @@
 1) ***opencv_tutorial_01.py*** - Covers basic image processing operations using an image from the movie, Jurassic Park
 2) ***opencv_tutorial_02.py*** - Shows how to use these image processing building blocks to create an OpenCV application to count the number of objects in a Tetris image
 
-# Loading and displaying an image:
+# Loading and displaying an image
 
 1) ***cv2.imread*** - Read or access the image
 2) ***cv2.imshow*** - Display the image that is read
 
-# Array slicing and cropping:
+# Array slicing and cropping
 
 Extracting “regions of interest” (ROIs) is an important skill for image processing.
 1) ***image[startY:endY, startX:endX]*** - Specifying the coordinates of the image we need to extract
 
-# Resizing images:
+# Resizing images
 1) ***cv2.resize*** - Resizing images as per our requirement or Resize a large image to fit on screen. (It ignores aspect ratio of images i.e. ratio of its width to its height)
 2) ***imutils.resize*** - Resizing images as per our requirement as well as maintains the aspect ratio of the image.
 
