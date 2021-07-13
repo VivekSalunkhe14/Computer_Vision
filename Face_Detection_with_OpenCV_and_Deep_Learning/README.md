@@ -29,3 +29,6 @@ python detect_faces.py --image singleface.jpg --prototxt deploy.prototxt.txt --m
 
 Before Execution:
 
+![Screenshot](singleface.jpg)
+
+After Execution:
