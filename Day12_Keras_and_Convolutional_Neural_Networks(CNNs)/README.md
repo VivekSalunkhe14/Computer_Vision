@@ -23,6 +23,11 @@ Since we’re working with a limited amount of data points (< 250 images per cla
 
 The file ```classify.py``` is implemented to classify images that are not part of our training or validation/testing set.
 
+# Execution Command
+python train.py --dataset dataset --model pokedex.model --labelbin lb.pickle
+
+python classify.py --model pokedex.model --labelbin lb.pickle --image examples/charmander_counter.png
+
 # Output
 
 <table>
