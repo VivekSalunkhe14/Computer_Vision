@@ -20,3 +20,5 @@ NOTE: We will used pre-defined labels file which is obtained through ImageNet.
     4) `mean` : These are our mean subtraction values. They can be a 3-tuple of the RGB means or they can be a single value in which case the supplied value is subtracted from every channel of the image. If you’re performing mean subtraction, ensure you supply the 3-tuple in `(R, G, B)` order, especially when utilizing the default behavior of swapRB=True .
     5) `swapRB` : OpenCV assumes images are in BGR channel order; however, the mean value assumes we are using RGB order. To resolve this discrepancy we can swap the R and B channels in image by setting this value to `True`. By default OpenCV performs this channel swapping for us.
 2) ***cv2.dnn.readNetFromCaffe*** - Read the caffe protxt file and model file
+
+NOTE: Download the .prototxt file, .caffemodel file and place it in the same directory of the project in order to obatin the correct results. 
