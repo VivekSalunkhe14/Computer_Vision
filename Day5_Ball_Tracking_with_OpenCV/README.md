@@ -17,3 +17,6 @@
 7) ***cv2.minEnclosingCircle*** - It is a circle which completely covers the object with minimum area i.e. To ensure that the radius of the minimum enclosing circle is sufficiently large.
 8) ***cv2.moments*** - Moments are used to describe several properties of an image, such as the intensity of an image, its centroid, the area, and information about its orientation.
 9) ***cv2.line*** - Draws a line on an image
+
+# Execution Command:
+python ball_tracking.py 
