@@ -33,10 +33,14 @@ OpenCV’s deep learning face detector is based on the **Single Shot Detector (S
 
 # Output
 
-Before Execution:
+<table>
+  <tr>
+     <td> <h3>BEFORE EXECUTION</h3> </td>
+     <td> <h3>AFTER EXECUTION</h3> </td>
+  </tr>
+  <tr>
+    <td> <img src="singleface.jpg"  alt="1" width = 1400px height = 300px ></td>
+    <td><img src="singlefacedetect.png" alt="2" width = 1400px height = 300px></td>
+   </tr> 
+</table>
 
-![Screenshot](singleface.jpg)
-
-After Execution:
-
-![Screenshot](singlefacedetect.png)
