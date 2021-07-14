@@ -24,6 +24,9 @@ NOTE: The dlib shape detector file "shape_predictor_68_face_landmarks.dat" is no
 2) ***cv2.rectangle*** - Drawing a rectangle on an image
 3) ***cv2.circle*** - Drawing a circle on an image
 
+# Execution Command:
+python facial_landmarks.py --shape-predictor shape_predictor_68_face_landmarks.dat --image multiplefaces.jpg
+
 # Output
 <table>
   <tr>
