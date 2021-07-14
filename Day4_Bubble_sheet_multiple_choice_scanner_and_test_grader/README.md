@@ -27,3 +27,13 @@ Optical Mark Recognition, or OMR for short, is the process of automatically anal
 
 # Output
 
+<table>
+  <tr>
+     <td> <h3>ORIGINAL IMAGE</h3> </td>
+     <td> <h3>CHECKED IMAGE</h3> </td>
+  </tr>
+  <tr>
+    <td> <img src="marksheet.jpg"  alt="1" width = 460px height = 600px ></td>
+    <td><img src="marksheet_checked.png" alt="2" width = 460px height = 600px></td>
+   </tr> 
+</table>
