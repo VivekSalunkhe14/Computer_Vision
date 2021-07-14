@@ -12,3 +12,6 @@
 4) ***cv2.convexHull*** - Identify the convex hull 
 
 NOTE: The dlib shape detector file "shape_predictor_68_face_landmarks.dat" is not uploaded in this directory since it is too big. Please download this file and position in the same folder for execution of this project.
+
+# Execution Command:
+python detect_drowsiness.py --shape-predictor shape_predictor_68_face_landmarks.dat --alarm alarm.wav
