@@ -6,6 +6,10 @@ A simple feedforward neural network implementation on <a href="https://www.kaggl
 While there are many, many different neural network architectures, the most common architecture is the feedforward network. In this type of architecture, a connection between two nodes is only permitted from nodes in layer i to nodes in layer i + 1 (hence the term feedforward; there are no backwards or inter-layer connections allowed).
 Furthermore, the nodes in layer i are fully connected to the nodes in layer i + 1. This implies that every node in layer i connects to every node in layer i + 1.
 
+# Execution Command:
+python simple_neural_network.py --dataset kaggle_dogs_vs_cats --model output/simple_neural_network.hdf5
+python test_network.py --model output/simple_neural_network.hdf5 --test-images test_images
+
 # Output
 
 <table>
