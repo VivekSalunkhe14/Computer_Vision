@@ -74,3 +74,7 @@ Extracting “regions of interest” (ROIs) is an important skill for image proc
 
 # Masking and bitwise operations
 1) ***cv2.bitwise_and*** - Masks allow us to “mask out” regions of an image we are uninterested in.
+
+# Execution Command
+* python opencv_tutorial_01.py 
+* python opencv_tutorial_02.py --image tetris_blocks.png
