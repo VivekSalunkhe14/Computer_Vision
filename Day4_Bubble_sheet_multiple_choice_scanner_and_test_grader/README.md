@@ -25,6 +25,9 @@ Optical Mark Recognition, or OMR for short, is the process of automatically anal
 11) ***cv2.bitwise_and*** - Masks allow us to “mask out” regions of an image we are uninterested in.
 12) ***cv2.countNonZero*** - Count the number of non-zero pixels in the masked region.
 
+# Execution Command:
+python test_grader.py --image marksheet.jpg
+
 # Output
 
 <table>
