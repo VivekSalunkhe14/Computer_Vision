@@ -14,3 +14,15 @@ To build deep learning-based real-time object detector with OpenCV we’ll need 
     3) `size` : Here we supply the spatial size that the Convolutional Neural Network expects. For most current state-of-the-art neural networks this is either 224×224, 227×227, or 299×299.
     4) `mean` : These are our mean subtraction values. They can be a 3-tuple of the RGB means or they can be a single value in which case the supplied value is subtracted from every channel of the image. If you’re performing mean subtraction, ensure you supply the 3-tuple in `(R, G, B)` order, especially when utilizing the default behavior of swapRB=True .
     5) `swapRB` : OpenCV assumes images are in BGR channel order; however, the mean value assumes we are using RGB order. To resolve this discrepancy we can swap the R and B channels in image by setting this value to `True`. By default OpenCV performs this channel swapping for us.
+
+# Output:
+<table>
+  <tr>
+     <td> <h3>AEROPLANE PREDICTIONS</h3> </td>
+     <td> <h3>HORSE AND PERSON PRECTIONS</h3> </td>
+  </tr>
+  <tr>
+    <td> <img src="images/aeroplane_predicted.png"  alt="1" width = 600px height = 480px ></td>
+    <td><img src="images/horse_predicted.png" alt="2" width = 600px height = 480px></td>
+   </tr> 
+</table>
