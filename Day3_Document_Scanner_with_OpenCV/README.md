@@ -25,3 +25,37 @@
 
 # Output
 1) Edge Detection:
+<table>
+  <tr>
+     <td> <h3>ORIGINAL IMAGE</h3> </td>
+     <td> <h3>EDGED IMAGE</h3> </td>
+  </tr>
+  <tr>
+    <td> <img src="images/firstreceipt.png"  alt="1" width = 768 height = 500px ></td>
+    <td><img src="images/edged.png" alt="2" width = 768px height = 500px></td>
+   </tr> 
+</table>
+
+2) Finding Contours:
+<table>
+  <tr>
+     <td> <h3>ORIGINAL IMAGE</h3> </td>
+     <td> <h3>CONTOUR IMAGE</h3> </td>
+  </tr>
+  <tr>
+    <td> <img src="images/firstreceipt.png"  alt="1" width = 768 height = 500px ></td>
+    <td><img src="images/contour.png" alt="2" width = 768px height = 500px></td>
+   </tr> 
+</table>
+
+3) Perspective Transformation and Final Warped Image
+<table>
+  <tr>
+     <td> <h3>ORIGINAL IMAGE</h3> </td>
+     <td> <h3>SCANNED IMAGE</h3> </td>
+  </tr>
+  <tr>
+    <td> <img src="images/firstreceipt.png"  alt="1" width = 768 height = 500px ></td>
+    <td><img src="images/warped.png" alt="2" width = 768px height = 500px></td>
+   </tr> 
+</table>
