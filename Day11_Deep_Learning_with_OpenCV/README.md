@@ -22,3 +22,6 @@ NOTE: We will used pre-defined labels file which is obtained through ImageNet.
 2) ***cv2.dnn.readNetFromCaffe*** - Read the caffe protxt file and model file
 
 NOTE: Download the .prototxt file, .caffemodel file for googlenet and place it in the same directory of the project in order to obatin the correct results. 
+
+# Execution Command:
+python deep_learning_with_opencv.py --image images/jemma.png --prototxt bvlc_googlenet.prototxt --model bvlc_googlenet.caffemodel --labels labels.txt
