@@ -16,6 +16,9 @@ In order to determine the size of an object in an image, we first need to perfor
 7) ***cv2.contourArea*** - Identify the area of contour.
 8) ***cv2.cv.BoxPoints*** or ***cv2.boxPoints*** - Compute the rotated bounding box of the image.
 
+# Execution Command:
+python object_size.py --image example.jpg --width 0.955
+
 # Output
 <table>
   <tr>
