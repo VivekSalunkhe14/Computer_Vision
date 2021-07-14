@@ -17,3 +17,13 @@ In order to determine the size of an object in an image, we first need to perfor
 8) ***cv2.cv.BoxPoints*** or ***cv2.boxPoints*** - Compute the rotated bounding box of the image.
 
 # Output
+<table>
+  <tr>
+     <td> <h3>REFERENCE OBJECT IMAGE</h3> </td>
+     <td> <h3>MEASURED OBJECT IMAGE</h3> </td>
+  </tr>
+  <tr>
+    <td> <img src="reference_image.png"  alt="1" width = 602px height = 436px ></td>
+    <td><img src="measure_object.png" alt="2" width = 602px height = 436px></td>
+   </tr> 
+</table>
