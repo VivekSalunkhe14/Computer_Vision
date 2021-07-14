@@ -24,3 +24,14 @@ Since we’re working with a limited amount of data points (< 250 images per cla
 The file ```classify.py``` is implemented to classify images that are not part of our training or validation/testing set.
 
 # Output
+
+<table>
+  <tr>
+     <td> <h3>BULBASAUR IMAGE</h3> </td>
+     <td> <h3>PIKACHU IMAGE</h3> </td>
+  </tr>
+  <tr>
+    <td> <img src="bulbasaur_predicted.png"  alt="1" width = 498px height = 320px ></td>
+    <td><img src="pikachu_predicted.png" alt="2" width = 498px height = 320px></td>
+   </tr> 
+</table>
