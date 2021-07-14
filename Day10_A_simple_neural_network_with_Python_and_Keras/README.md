@@ -8,6 +8,7 @@ Furthermore, the nodes in layer i are fully connected to the nodes in layer i + 
 
 # Execution Command:
 python simple_neural_network.py --dataset kaggle_dogs_vs_cats --model output/simple_neural_network.hdf5
+
 python test_network.py --model output/simple_neural_network.hdf5 --test-images test_images
 
 # Output
