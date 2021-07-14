@@ -23,6 +23,9 @@
    1) ***cv2.getPerspectiveTransform*** - A perspective transform is used to obtain a top-down, “birds eye view” of an image — provided that we could find reference points.
    2) ***cv2.warpPerspective*** - Warped or Top-Down view of the image.
 
+# Execution Command:
+python scan.py --image images/firstreceipt.png
+
 # Output
 1) Edge Detection:
 <table>
