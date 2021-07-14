@@ -21,4 +21,4 @@ NOTE: We will used pre-defined labels file which is obtained through ImageNet.
     5) `swapRB` : OpenCV assumes images are in BGR channel order; however, the mean value assumes we are using RGB order. To resolve this discrepancy we can swap the R and B channels in image by setting this value to `True`. By default OpenCV performs this channel swapping for us.
 2) ***cv2.dnn.readNetFromCaffe*** - Read the caffe protxt file and model file
 
-NOTE: Download the .prototxt file, .caffemodel file and place it in the same directory of the project in order to obatin the correct results. 
+NOTE: Download the .prototxt file, .caffemodel file for googlenet and place it in the same directory of the project in order to obatin the correct results. 
