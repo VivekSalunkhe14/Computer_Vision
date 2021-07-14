@@ -13,6 +13,8 @@ Facial landmarks have been successfully applied to face alignment, head pose est
 
 The pre-trained facial landmark detector inside the dlib library is used to estimate the location of 68 (x, y)-coordinates that map to facial structures on the face.
 
+NOTE: The dlib shape detector file "shape_predictor_68_face_landmarks.dat" is not uploaded in this directory since it is too big. Please download this file and position in the same folder for execution of this project.
+
 # 2 Key Steps:
 1) Localize the face in the image.
 2) Detect the key facial structures on the face ROI.
@@ -29,7 +31,7 @@ The pre-trained facial landmark detector inside the dlib library is used to esti
      <td> <h3>FACIAL LANDMARK IMAGE</h3> </td>
   </tr>
   <tr>
-    <td> <img src="multiplefaces.jpg"  alt="1" width = 768 height = 1024px ></td>
-    <td><img src="face_landmark.png" alt="2" width = 768px height = 1024px></td>
+    <td> <img src="multiplefaces.jpg"  alt="1" width = 715px height = 450px ></td>
+    <td><img src="face_landmark.png" alt="2" width = 715px height = 450px></td>
    </tr> 
 </table>
